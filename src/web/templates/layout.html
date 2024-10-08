@@ -1,4 +1,4 @@
-{% load static %}
+{{% load static %}
 
 <!DOCTYPE HTML>
 <html>
@@ -8,17 +8,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <link rel="stylesheet" href="{% static 'pico.jade.min.css' %}">
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css">
   <script src="{% static 'htmx.v2.0.0.min.js' %}"></script>
   <title>QuickStatements 3.0</title>
   <style>
-    /* automatically add the spinner */
+    
     img.htmx-indicator {
       content: url("{% static 'spinner.svg' %}");
       width: 32px;
       height: 32px;
+    }
+
+    
+    input[type="submit"], 
+    a[role="button"], 
+    button {
+        background-color: blue;  
+        color: white;  
     }
 
     {% block css %}
