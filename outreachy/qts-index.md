@@ -14,8 +14,7 @@ The QuickStatements 3.0 homepage provides a user-friendly interface for interact
     -   **Last Batches**: This section (currently not linked) will show recent batches processed by the system.
     -   **Git Repository**: Links to the QuickStatements GitHub repository where users can view the source code and contribute.
     -   **User Information**: 
-    
-          -Depending on whether the user is logged in or anonymous, the following options are displayed:
+          - Depending on whether the user is logged in or anonymous, the following options are displayed:
                                 - If **anonymous**: A **Login** text is shown to authenticate users.
                                 - If **logged in**: The username and a link to view their last batches are displayed
 
